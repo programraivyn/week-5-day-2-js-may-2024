@@ -10,8 +10,10 @@ function countTheBlessings() {
     let blessingsGivenNumber = Number(blessingsGiven);
     moreBlessings = blessingsReceivedNumber * blessingsGivenNumber;
     
-    blessedPara.innerHTML = `The amount of blessings you received alone is ${blessingsReceivedNumber}!`;
-    bonusBlessings.innerHTML = `However, the amount of add'tl blessings you're due to receive from the return of blessings others is ${moreBlessings} at ${blessingsGivenNumber*200}%.`;
+    blessedPara.innerHTML = `<strong>The amount of blessings you received alone is ${blessingsReceivedNumber}!</strong>`;
+    bonusBlessings.innerHTML = `However, the amount of add'tl blessings you're due to receive from the return of blessings others is <em>${moreBlessings}</em> at <strong> ${blessingsGivenNumber*200}%. </strong>`;
+    blessedPara.style.color = "hsl(280 30 65)";
+    bonusBlessings.style.color = "hsl(280 30 65)";
   }
   
   addEmUp.onclick = countTheBlessings;

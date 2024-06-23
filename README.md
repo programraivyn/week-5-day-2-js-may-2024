@@ -11,5 +11,5 @@
 - [x] Create an HTML for your version of the tip calculator also known as blessings.html
 - [x] Create a .js file as blessings.js
 - [x] Test webpage and coding for accuracy and functionality
-- [] Create a style.css and add styling to your webpages, still ensuring accuracy in coding and presentation 
-- [] Push back to GitHub
+- [x] Create a style.css and add styling to your webpages, still ensuring accuracy in coding and presentation 
+- [x] Push back to GitHub
